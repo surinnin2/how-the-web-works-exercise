@@ -1,0 +1,18 @@
+What is HTTP?
+HTTP is a protocol used by the browser to make requests to web servers.
+What is a URL?
+URL is the information used by browsers to make requests to web servers.
+What is DNS?
+Domain Name Server is a service for resolving hostnames into ip addresses.
+What is a query string?
+Query string is extra information passed on to the server at the end of a url to specify certain aspects of a web page.
+What are two HTTP verbs and how are they different?
+GET and POST differ in that GET does not alter the content of the webpage while POST does.
+What is an HTTP request?
+HTTP requests are methods made by the client to the server to convey information based on the request URL.
+What is an HTTP response?
+HTTP responses are responses made by the server to the client based on the method requested by the client.
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+An HTTP header is additional information that get passed on with a HTTP request or response.
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+The URL is read by the browser and the host name is converted into an ip address based on info on the client cache or a DNS server. Browser connects to ip address on default port unless specified, then makes an HTTP request based on the resources part of the URL. The client will  Then the query part of the URL will be passed onto the server. 
